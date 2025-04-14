@@ -30,3 +30,9 @@ for (let i = 0; i < squadre.length; i++) {
 
   risultati.push(nuovaSquadra);
 }
+
+console.log("Tutte le squadre con dati completi:");
+console.log(squadre);
+
+console.log("Nuovo array con solo nomi e falli subiti:");
+console.log(risultati);
