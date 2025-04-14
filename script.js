@@ -17,3 +17,4 @@ const biciclette = [
     }
   ];
   
+  let biciPiuLeggera = biciclette[0];
