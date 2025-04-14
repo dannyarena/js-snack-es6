@@ -16,3 +16,9 @@ for (let i = 0; i < squadre.length; i++) {
   squadre[i].puntiFatti = getRandomNumber(0, 100);
   squadre[i].falliSubiti = getRandomNumber(0, 50);
 }
+
+
+const risultati = [];
+
+for (let i = 0; i < squadre.length; i++) {
+  const squadra = squadre[i];
