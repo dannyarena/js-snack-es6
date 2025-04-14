@@ -22,3 +22,11 @@ const risultati = [];
 
 for (let i = 0; i < squadre.length; i++) {
   const squadra = squadre[i];
+
+  const nuovaSquadra = {
+    nome: squadra.nome,
+    falliSubiti: squadra.falliSubiti
+  };
+
+  risultati.push(nuovaSquadra);
+}
