@@ -18,3 +18,9 @@ const biciclette = [
   ];
   
   let biciPiuLeggera = biciclette[0];
+
+  for (let i = 1; i < biciclette.length; i++) {
+    const bici = biciclette[i];
+    
+  }
+  
