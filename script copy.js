@@ -10,3 +10,9 @@ const squadre = [
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+
+for (let i = 0; i < squadre.length; i++) {
+  squadre[i].puntiFatti = getRandomNumber(0, 100);
+  squadre[i].falliSubiti = getRandomNumber(0, 50);
+}
