@@ -16,5 +16,6 @@ const biciclette = [
   }
   
   console.log("La bici più leggera è:");
-  console.log(`Nome: ${biciPiuLeggera.nome}, Peso: ${biciPiuLeggera.peso} kg`);
+  console.log(`Nome: ${biciPiuLeggera.nome}, Peso: ${biciPiuLeggera.peso} kg`); 
+  
   
